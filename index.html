@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heal & Seal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="!"></button>
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">About Us</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome To Heal & Seal</h1>
+        <p>A place where you can get professional healing done for your problems of relashionship, pain in different
+            body parts, mind-healing etc.</p>
+        <p>Our professional masters can even teach you to do healing by yourself.</p>
+        <a href="#contact" class="btn">Contact us Now</a>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="images/1.png" alt="">
+                <h2 class="h-secondary center">Relashionship Healing</h2>
+                <p class="center">We understand, many problems regarding relashionship occur in your life making it
+                    difficult for you to focus on your work but here we are again to help in these problems.We can make
+                    you focus again on your daily life properly.</p>
+            </div>
+            <div class="box">
+                <img src="images/2.png" alt="">
+                <h2 class="h-secondary center">Mind Healing</h2>
+                <p class="center" id="imp">In life we face many situations in which our mind is not able to control
+                    itself. In such situations we help you heal your mind again keeping it controled and calm.</p>
+            </div>
+            <div class="box">
+                <img src="images/3.png" alt="">
+                <h2 class="h-secondary center">Body Healing</h2>
+                <p class="center">Many of you face problems in your body parts while working whether at home or at
+                    office.Many of your body parts need healing in such a way that you may not feel the pain again
+                    making you happy and focused on your work.</p>
+            </div>
+            <div class="box">
+                <img src="images/4.png" alt="">
+                <h2 class="h-secondary center">Learning To Heal</h2>
+                <p class="center">Many people may not get their problems healed again and again and for that we can also
+                    teach you how to heal yourself in many emergencies and in many other problems.</p>
+            </div>
+            <div class="box">
+                <img src="images/5.png" alt="">
+                <h2 class="h-secondary center">Chakra Healing</h2>
+                <p class="center">As you know our body has 7 chakras and sometimes we also need to heal them so that we
+                    can live a healthy and a spiritual life.Our Chakra healing makes you feel more better in your own
+                    life.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="client-section">
+        <h1 class="h-primary center">About Us</h1>
+        <div id="clients">
+            We have been on this business for a long time ago.very back, around 2 to 3 years back I, Mamta Pareek,
+            learned to heal different problems and pains.So with my daughter Chinkal Pareek and sister Suman Pareek
+            I started Heal & Seal .I always had a dream to teach everyone this skill so that
+            everyone, just like me can heal their different problems and pains,and after some time when i thought i was
+            finally ready i told my nephew(10 yrs learning coding from youtube) to make a website for me and to my
+            wonder after a few days i got the website full ready with everything.All the beatifull text and good idea.He
+            was a very young passionate for coding and i ussualy used to help him And now
+            with full excitement we present you our app and website both.We are very much looking forward to help you.
+        </div>
+    </section>
+
+    <section id="special-master">
+        <h1 class="h-primary center">Our Special Masters</h1>
+        <div id="masters">
+           Mamta Pareek & Chinkal Pareek:
+            Managed by Suman Pareek
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="email@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="name">Phone: </label>
+                    <input type="phone" name="name" id="phone" placeholder="9999999999">
+                </div>
+                <div class="form-group">
+                    <label for="name">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="name">Service:</label>
+                    <select name="dropdown" id="drop">
+                        <option value="--Select--">--Select--</option>
+                        <option value="Learn-Healing-Techniques">Learn-Healing-Techniques</option>
+                        <option value="Healing-Of-Body">Healing-Of-Body</option>
+                        <option value="Mind-Healing">Mind-Healing</option>
+                        <option value="Relashionship-Healing">Relashionship-Healing</option>
+                        <option value="Chakra-Healing">Chakra-Healing</option>
+                    </select>
+                </div>
+                <form class="form-group" method="post">
+                    <input type="button" value="Submit" class="btn" onclick="sendEmail()" />
+                </form>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.websitename.com. All Rights reserved!
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        function sendEmail() {
+            const name = document.querySelector('#name').value;
+            const email = document.querySelector('#email').value;
+            const phone = document.querySelector('#phone').value;
+            const service = document.querySelector('#drop').value;
+            const message = document.querySelector('#message').value;
+            if ((document.querySelector('#name').value == "") || (document.querySelector('#email').value == "") || (document.querySelector('#phone').value == "") || (document.querySelector('#drop').value == "--Select--") || (document.querySelector('#message').value == "")) {
+                alert("Please Fill Out All Fields")
+            }
+            else {
+                    Email.send({
+                        Host: "smtp.elasticemail.com",
+                        Username: "garvitpareek18@gmail.com",
+                        Password: "0D3A22CBCF4B47E11E9A1A7BDB613E79B744",
+                        To: 'parekhmitali21@gmail.com',
+                        From: "garvitpareek18@gmail.com",
+                        Subject: "From Heal & Seal - Got A Client",
+                        Body: `Name : ${name},\nEmail : ${email},\nPhone ; ${phone},\nService : ${service},\nMessage : ${message}`
+                    }).then(
+                        message => alert(message+"\nWe will contact you shortly")
+                    );
+                }
+            }
+    </script>
+
+</body>
+
+</html>
